@@ -1,0 +1,30 @@
+body {
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+#nav-toplevel > li > a{
+  font-weight:bold;
+}
+
+.nav-list > li > ul {
+    padding-left:0;
+    padding-right:0;
+}
+.nav-list ul > li > a {
+    padding-left:30px;
+    font-weight:normal;
+}
+.nav-list ul > li > ul > li > a{
+    padding-left:45px;
+}
+
+.navbar-inner .btn-toolbar{
+  margin-top:3px;
+  margin-bottom:4px;
+}
+.navbar-inner .btn,
+.navbar-inner .button-group .btn{
+{
+  margin-top:0px;
+  margin-bottom:0px;
+}
