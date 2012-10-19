@@ -28,3 +28,23 @@ body {
   margin-top:0px;
   margin-bottom:0px;
 }
+.landing-content h3, .landing-content h2{
+  line-height:10px !important;
+}
+#start-block .row .btn{
+  height:50px;
+  display:block;
+}
+.btn#step1{
+  width:200px;
+}
+.btn#step2{
+  width:220px;
+}
+.btn#step3{
+  width:200px;
+}
+#start-block button{
+  height:100px !important;
+}
+
