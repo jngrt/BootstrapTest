@@ -2,10 +2,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<title>Bootstrap test</title>
+<title>CommonSense Developer</title>
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-<!--<link rel="stylesheet/less" href="less/bootstrap.less">
-<script src="bootstrap/js/less-1.3.0.min.js"></script>-->
 <link href="main.css" rel="stylesheet">
 </head>
 <body>
@@ -14,9 +12,7 @@
   <div class="navbar-inner">
 
     <div class="container">
-<!--      <div class="toplogo">ahah 
-</div>-->
-<a class="brand" href="#"><img src="img/favicon_orange2.png" /> CommonSense Developers</a>
+      <a class="brand" href="#"><img src="img/favicon_orange2.png" /> CommonSense Developers</a>
       <div class="btn-toolbar pull-right">
         <a class="btn btn-small" href="#"><i class="icon-search"></i></a>
         <div class="btn-group">
@@ -75,34 +71,21 @@
         </div>
       <div id="start-block" class="well"> 
       <div class="lead">
-        Storing, combining and analysing sensor data has never been easier. CommonSense is a platform which greatly simplifies working with large data sets.
+        A platform that greatly simplifies the storage and analysis of large quantities of sensor data. Here&#39;s how to get started:
       </div>
-      <!--<h4>Here's how to get started:</h4>-->
         <div class="row">
-            <!--
-            <button id="step1" class="btn btn-large btn-primary " type="button">
-              1. Register a CommonSense account 
-            </button>
-            <button id="step2" class="btn btn-large btn-primary" type="button">
-              2. Get to know the API
-            </button>
-            <button id="step3" class="btn btn-large btn-primary" type="button">
-              3. Build great apps
-            </button>
-            -->
-          <div style="width:200px;height:80px;margin-left:20px;float:left;" >
-            <button style="height:80px;" class="btn btn-large btn-primary btn-block " type="button">
+          <div id="start-button-1">
+            <button class="btn btn-large btn-primary btn-block " type="button">
               1. Register a CommonSense account 
             </button>
           </div>
-          <div style="width:210px;height:80px;margin-left:20px;float:left;">
-            <button style="height:80px;" class="btn btn-large btn-primary btn-block" type="button">
+          <div id="start-button-2">
+            <button class="btn btn-large btn-primary btn-block" type="button">
               2. Get to know<br />the API
-
             </button>
           </div>
-          <div style="width:205px;height:80px;margin-left:20px;float:left;">
-            <button style="height:80px;" class="btn btn-large btn-primary btn-block" type="button">
+          <div id="start-button-3">
+            <button class="btn btn-large btn-primary btn-block" type="button">
               3. Build<br />great apps
             </button>
           </div>
@@ -111,16 +94,14 @@
   
       <div class="row landing-content" >
         <div class="span3">
-          <h4>What it is</h4>
+          <h4>Platform overview</h4>
           <!--lorem-->
-          <p>Et, ornare sagittis, tellus. Fusce felis tellus, consectetuer nec, consequat
-          at, ornare non, arcu. Maecenas condimentum sodales odio. Sed eu orci.</p>
-          <p><img src="img/test.png"/></p>
-          <hr>
-          <h4>Links</h4>
-          <p>Amet ante. Mauris ac nibh eget risus volutpat tempor. Praesent volutpat
-          sollicitudin dui. Sed in tellus id urna viverra commodo. Vestibulum enim felis,
-          interdum non, sollicitudin in, posuere a, sem. Cras nibh.</p>
+          <p>The CommonSense platform consists of several different components. To make good use of the API it's important to grasp the concepts on which it is founded. Check this article for an in depth review.</p>
+          <i class="icon-circle-arrow-right" style="float:right;margin-bottom:10px"> </i>
+          <hr style="clear:both;">
+          <h4>Sense Observation Systems</h4>
+          <p>This is the company behind the CommonSense platform. We actively develop the main system responsible for data storage and analysis and spent much time improving the open source libraries. More information about the company can be found on our main site.</p>
+          <i class="icon-circle-arrow-right"> </i> 
         </div>
         <div class="span3">
           <h4>Great libraries, easy development</h4>
@@ -139,10 +120,10 @@
           scelerisque tortor a justo. Quisque consequat libero eu erat. In eros augue,
           iaculis. Fusce nisl. Pellentesque sagittis. Lorem ipsum dolor sit amet,
           consectetuer adipiscing elit. Aenean placerat tellus. In semper.</p>
+          <i class="icon-circle-arrow-right"> </i> 
           <hr>
           <h4>We &hearts; open source</h4>
-          <p>Pellentesque sagittis. Lorem ipsum dolor sit amet,
-          consectetuer adipiscing elit. Aenean placerat tellus. In semper.</p>
+          <p>In our daily work we depend heavily on open source tools, ranging from nginx to sinatra, from jquery to vim. Without these tools we would be a lot less productive. Therefore we want to give something back.</p>
           <p><a href="https://github.com/senseobservationsystems/">Follow us on github</a></p>
         </div>
       </div>
@@ -155,7 +136,7 @@
     <p>&copy; Sense Observation Systems 2012</p>
   </footer>
 
-</div><!--/.fluid-container-->
+</div>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>

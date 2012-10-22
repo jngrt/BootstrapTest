@@ -1,7 +1,14 @@
+
 body {
     padding-bottom: 40px;
     padding-top: 60px;
 }
+
+
+/*
+ * Sidebar styling
+ */
+
 #nav-toplevel > li > a{
   font-weight:bold;
 }
@@ -18,33 +25,51 @@ body {
     padding-left:45px;
 }
 
-.navbar-inner .btn-toolbar{
+/*
+ * Top navigation styling
+ */
+.navbar-inner .btn-toolbar {
   margin-top:3px;
   margin-bottom:4px;
 }
-.navbar-inner .btn,
-.navbar-inner .button-group .btn{
-{
+.navbar-inner .btn, .navbar-inner .button-group .btn{
   margin-top:0px;
   margin-bottom:0px;
 }
+
+/*
+ * Landing page styling
+ */
 .landing-content h3, .landing-content h2{
-  line-height:10px !important;
+  line-height:10px;
 }
-#start-block .row .btn{
-  height:50px;
+#start-block .btn{
+  height:80px;
   display:block;
 }
-.btn#step1{
+div#start-button-1{
   width:200px;
+  height:80px;
+  margin-left:20px;
+  float:left;
 }
-.btn#step2{
+div#start-button-2{
   width:220px;
+  height:80px;
+  margin-left:20px;
+  float:left;
 }
-.btn#step3{
+div#start-button-3{
   width:200px;
-}
-#start-block button{
-  height:100px !important;
+  height:80px;
+  margin-left:20px;
+  float:left;
 }
 
+.landing-content .icon-circle-arrow-right {
+  float:right;
+  margin-bottom:10px;
+}
+.landing-content hr {
+  clear:both
+}

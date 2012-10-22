@@ -55,7 +55,7 @@ test:
 #
 
 clean:
-	rm -r bootstrap
+	rm -rf bootstrap
 
 #
 # BUILD SIMPLE BOOTSTRAP DIRECTORY
