@@ -46,30 +46,22 @@ body {
 #start-block .btn{
   height:80px;
   display:block;
-}
-div#start-button-1{
-  width:200px;
-  height:80px;
   margin-left:20px;
   float:left;
+  width:205px;
+  text-decoration:none;
 }
-div#start-button-2{
-  width:220px;
-  height:80px;
-  margin-left:20px;
-  float:left;
+.landing-content a.block {
+  text-decoration:none;
+  color:#555;
 }
-div#start-button-3{
-  width:200px;
-  height:80px;
-  margin-left:20px;
-  float:left;
+.landing-content .block-end{
+  clear:both;
+  padding-bottom:20px;
 }
-
-.landing-content .icon-circle-arrow-right {
+.landing-content i{
   float:right;
-  margin-bottom:10px;
-}
-.landing-content hr {
-  clear:both
+  margin-top:-20px;
+  font-size:24px;
+  font-style:normal;
 }
