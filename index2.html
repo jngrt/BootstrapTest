@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>CommonSense Developer</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+
+    <div class="container">
+      <a class="brand" href="#"><img src="img/favicon_orange2.png" /> CommonSense Developers</a>
+      <div class="btn-toolbar pull-right">
+        <a class="btn btn-small" href="#"><i class="icon-search"></i></a>
+        <div class="btn-group">
+        <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-user"></i></a>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">User Name</a></li>
+          <li class="divider"></li>
+          <li><a href="#"><i class="icon-pencil"></i> Settings</a></li>
+          <li><a href="#"><i class="icon-off"></i> Logout</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container"> 
+  <div class="row">
+    <div class="span3">
+        <div data-spy="affix" data-offset-top="0" class="well sidebar"> 
+        <ul class="nav nav-list" id="nav-toplevel">
+
+          <li><a href="#">CommonSense</a>
+            <ul class="nav nav-list">
+              <li class="active"><a href="#">System overview</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="#">API Reference</a></li>
+
+          <li><a href="#">Using the API</a>
+            <!--<ul class="nav nav-list">
+              <li><a href="#">Getting started</a></li>
+              <li><a href="#">Adding sensors</a></li>
+              <li><a href="#">Analysing data</a></li>
+              <li><a href="#">Some other guide</a></li>
+            </ul>-->
+          </li>
+          <li><a href="#">Libraries</a>
+           <!-- <ul class="nav nav-list">
+              <li><a href="#">Android</a></li>
+              <li><a href="#">iOS</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">PHP</a></li>
+              <li><a href="#">Javascript</a></li>
+            </ul>-->
+          </li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div> 
+    </div><!--/span-->
+
+    <div class="span9">
+      <div class="page-header landing-page"> 
+        <h1>CommonSense</h1>
+      </div>
+      <div class="lead">
+        A platform that greatly simplifies the storage and analysis of large quantities of sensor data.
+        Here is how to get started:
+      </div>
+
+      <div class="row" id="start-block">
+        <div class="span3">
+          <a href="http://accounts.sense-os.nl/" target="_blank">
+            <button class="btn btn-large btn-primary btn-block" type="button">
+              1. Get a CommonSense<br />account 
+            </button>
+          </a>
+        </div>
+        <div class="span3">
+          <a href="/UsingTheAPI/GettingStarted">
+            <button class="btn btn-large btn-primary btn-block" type="button">
+              2. Get to know<br />the API
+            </button>
+          </a>
+        </div>
+        <div class="span3">
+          <a href="/Libraries">
+            <button class="btn btn-large btn-primary btn-block" type="button">
+              3. Build<br />great apps
+            </button>
+          </a>
+        </div>
+      </div>
+      <hr />
+
+  
+      <div class="row landing-content" >
+        <div class="span3">
+          <a href="/CommonSense/Overview" class="block">
+            <h4>Platform overview</h4>
+            <!--lorem-->
+            <p>The CommonSense platform consists of several different components. 
+            To make good use of the API it's important to grasp the concepts on which it is founded. 
+            Check this article for an in depth review.</p>
+            <i>&rsaquo;</i>
+            <div class="block-end"></div>
+          </a> 
+
+          <a href="http://www.sense-os.nl" class="block">
+            <h4>Sense Observation Systems</h4>
+            <p>The company behind the CommonSense platform. We actively develop the main system responsible for data storage and analysis and spent much time improving the open source libraries. More information about the company can be found on our main site.</p>
+            <i>&rsaquo;</i>
+            <div class="block-end"></div>
+          </a>
+        </div>
+        <div class="span3">
+          <a href="/UsingTheAPI/GettingStarted" class="block">
+            <h4>Your first CommonSense app</h4>
+            <p>If your just starting out with CommonSense try this tutorial. You'll have your first CommonSense app up and running in no time.</p>
+            <i>&rsaquo;</i>
+            <div class="block-end"></div>  
+          </a>
+          <h4>We &hearts; open source</h4>
+          <p>In our daily work we depend heavily on open source tools, ranging from nginx to sinatra, from jquery to vim. Without these tools we would be a lot less productive. Therefore we want to give something back.</p>
+          <p><a href="https://github.com/senseobservationsystems/">Follow us on github</a></p>
+          <div class="block-end"></div>
+        </div>  
+        <div class="span3">
+          <h4>Great libraries, easy development</h4>
+          <p>To get up to speed using the API you can make use of these client libraries. </p>
+          <!--
+          <a class="btn btn-link">Android &rsaquo;</a>
+            <a class="btn btn-link">iOS</a>
+            <a class="btn btn-link">PHP</a>
+            <a class="btn btn-link">Python</a>
+            <a class="btn btn-link">Javascript</a>
+            -->
+          <button class="btn btn-block btn-link">Android &rsaquo;</button>
+          <button class="btn btn-block btn-link">iOS &rsaquo;</button>
+          <button class="btn btn-block btn-link">Python &rsaquo;</button>
+          <button class="btn btn-block btn-link">PHP &rsaquo;</button>
+          <button class="btn btn-block btn-link">Javascript &rsaquo;</button>
+          <div class="block-end"></div>  
+          <a href="/Support" class="block">
+            <h4>Get Support</h4>
+            <p>Although our API is dead simple to use, 
+            there might be times when you get stuck nonetheless. 
+            In these cases there are several ways to get support, this page explains which.</p>
+            <i>&rsaquo;</i>
+            <div class="block-end"></div>  
+          </a>
+        </div>
+      </div>
+    </div><!--/span-->
+  </div><!--/row-->
+
+  <hr>
+
+  <footer>
+    <p>&copy; Sense Observation Systems 2012</p>
+  </footer>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

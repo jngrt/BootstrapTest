@@ -150,6 +150,9 @@ input[type="button"] {
 .btn-primary {
   .buttonBackground(@btnPrimaryBackground, @btnPrimaryBackgroundHighlight);
 }
+.btn-primary:hover {
+  .buttonBackground(@btnPrimaryBackgroundHighlight,@btnPrimaryBackground);
+}
 // Warning appears are orange
 .btn-warning {
   .buttonBackground(@btnWarningBackground, @btnWarningBackgroundHighlight);

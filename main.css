@@ -8,7 +8,10 @@ body {
 /*
  * Sidebar styling
  */
-
+.sidebar {
+  padding:20px 0;
+  width:210px;
+}
 #nav-toplevel > li > a{
   font-weight:bold;
 }
@@ -40,16 +43,31 @@ body {
 /*
  * Landing page styling
  */
-.landing-content h3, .landing-content h2{
-  line-height:10px;
+.landing-page.page-header h1{
+  font-size:84px;
+  line-height:84px;
+  letter-spacing: -3px;
+}
+.landing-page.page-header{
+  margin-bottom:20px;
+}
+
+.landing-content h4{
+  font-size:16px;
+  color:#f57e20;
+  font-weight:700;
+  line-height:
 }
 #start-block .btn{
   height:80px;
   display:block;
-  margin-left:20px;
-  float:left;
-  width:205px;
   text-decoration:none;
+}
+#start-block a{
+  text-decoration:none;
+}
+.landing-content a.block:hover{
+  color:#222;
 }
 .landing-content a.block {
   text-decoration:none;
@@ -61,7 +79,17 @@ body {
 }
 .landing-content i{
   float:right;
-  margin-top:-20px;
+  /*margin-top:-32px;*/
+  margin-top:-12px;
   font-size:24px;
   font-style:normal;
+}
+.landing-content .btn-link{
+  text-align:left;
+  padding-left:20px;
+  color:#555;
+  text-decoration:none;
+}
+.landing-content .btn-link:hover{
+  color:#C76206;
 }

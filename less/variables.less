@@ -38,24 +38,24 @@
 
 // Links
 // -------------------------
-@linkColor:             #f88822;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:              #fc7e00;//#f78d23; //#f78d23; //#FC7B08; //#f88822;
+@linkColorHover:        #e06400; //#e06400; //#f67e1e; //#FC6908; //#f57e20; //#F85815; //#FC6108; //darken(@linkColor, 15%);
 
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@sansFontFamily:        Arial, sans-serif; //"Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
-@baseFontSize:          14px;
+@baseFontSize:          12px;
 @baseFontFamily:        @sansFontFamily;
 @baseLineHeight:        20px;
 @altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsFontFamily:    "Open Sans Condensed",Arial,sans-serif; // inherit; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    300; //bold;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
 // Tables
@@ -71,8 +71,8 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #bbb;
 
-@btnPrimaryBackground:              @linkColor; //lighten(@linkColor, 20%);
-@btnPrimaryBackgroundHighlight:     darken(@linkColor,20%);
+@btnPrimaryBackground:              #f78d23; //lighten(#f78d23,5%); // #F08526; //#FC7D08;//lighten(@linkColor,20%); //lighten(@linkColor, 20%);
+@btnPrimaryBackgroundHighlight:     #ff7100; //darken(#ff7100,5%); //#F08526; //#FC6408; //@linkColor; //darken(@linkColor,20%);
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
@@ -142,7 +142,7 @@
 
 // Hr border color
 // -------------------------
-@hrBorder:                @grayLighter;
+@hrBorder:                @grayLight;//@grayLighter;
 
 
 // Horizontal forms & lists
