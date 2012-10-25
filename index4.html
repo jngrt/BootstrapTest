@@ -33,23 +33,37 @@
 <div class="container"> 
   <div class="row">
     <div class="span3">
-      <ul class="sidebar nav nav-tabs nav-stacked" id="nav-toplevel"  data-spy="affix" data-offset-top="0" >
-          <li><a href="#">CommonSense</a></li>
-          <li class="active sidebar-lvl-2"><a href="#">System overview</a></li>
+        <div data-spy="affix" data-offset-top="0" class="well sidebar"> 
+        <ul class="nav nav-list" id="nav-toplevel">
+
+          <li><a href="#">CommonSense</a>
+            <ul class="nav nav-list">
+              <li class="active"><a href="#">System overview</a></li>
+            </ul>
+          </li>
+          
           <li><a href="#">API Reference</a></li>
-          <li><a href="#">Using the API</a></li>
-          <li class="sidebar-lvl-2"><a href="#">Getting started</a></li>
-          <li class="sidebar-lvl-2"><a href="#">Adding sensors</a></li>
-          <li class="sidebar-lvl-2"><a href="#">Analysing data</a></li>
-          <li class="sidebar-lvl-3"><a href="#">Step 1: Analysing data</a></li>
-          <li class="sidebar-lvl-3"><a href="#">Step 2: Analysing data</a></li>
-          <li class="sidebar-lvl-2"><a href="#">Some other guide</a></li>
-          <li><a href="#">Libraries</a></li>
+
+          <li><a href="#">Using the API</a>
+            <!--<ul class="nav nav-list">
+              <li><a href="#">Getting started</a></li>
+              <li><a href="#">Adding sensors</a></li>
+              <li><a href="#">Analysing data</a></li>
+              <li><a href="#">Some other guide</a></li>
+            </ul>-->
+          </li>
+          <li><a href="#">Libraries</a>
+           <!-- <ul class="nav nav-list">
+              <li><a href="#">Android</a></li>
+              <li><a href="#">iOS</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">PHP</a></li>
+              <li><a href="#">Javascript</a></li>
+            </ul>-->
+          </li>
           <li><a href="#">Support</a></li>
         </ul>
-
-
-    
+      </div> 
     </div><!--/span-->
 
     <div class="span9">
@@ -64,21 +78,21 @@
       <div class="row" id="start-block">
         <div class="span3">
           <a href="http://accounts.sense-os.nl/" target="_blank">
-            <button class="start-btn-1 btn btn-large btn-primary btn-block" type="button">
-                1. Get a CommonSense account
+            <button class="btn btn-large btn-primary btn-block" type="button">
+              1. Get a CommonSense<br />account 
             </button>
           </a>
         </div>
         <div class="span3">
           <a href="/UsingTheAPI/GettingStarted">
-            <button class="start-btn-2 btn btn-large btn-primary btn-block" type="button">
-                2. Get to know<br />the API
+            <button class="btn btn-large btn-primary btn-block" type="button">
+              2. Get to know<br />the API
             </button>
           </a>
         </div>
         <div class="span3">
           <a href="/Libraries">
-            <button class="start-btn-3 btn btn-large btn-primary btn-block" type="button">
+            <button class="btn btn-large btn-primary btn-block" type="button">
               3. Build<br />great apps
             </button>
           </a>
@@ -88,7 +102,7 @@
 
   
       <div class="row landing-content" >
-        <div class="span3">
+        <div class="span6">
           <a href="/CommonSense/Overview" class="block">
             <h4>Platform overview</h4>
             <!--lorem-->
@@ -105,8 +119,6 @@
             <i>&rsaquo;</i>
             <div class="block-end"></div>
           </a>
-        </div>
-        <div class="span3">
           <a href="/UsingTheAPI/GettingStarted" class="block">
             <h4>Your first CommonSense app</h4>
             <p>If your just starting out with CommonSense try this tutorial. You'll have your first CommonSense app up and running in no time.</p>

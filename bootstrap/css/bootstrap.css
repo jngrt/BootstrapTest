@@ -160,7 +160,7 @@ textarea {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: #555555;
   background-color: #ffffff;
@@ -586,9 +586,9 @@ p {
 .lead {
   margin-bottom: 20px;
   font-family: "Open Sans Condensed", Arial, sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 small {
@@ -653,17 +653,17 @@ h6 small {
 }
 
 h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+h2 {
   font-size: 36px;
   line-height: 40px;
 }
 
-h2 {
-  font-size: 30px;
-  line-height: 40px;
-}
-
 h3 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 40px;
 }
 
@@ -673,13 +673,19 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
 
 h6 {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 700;
 }
 
 h1 small {
@@ -701,7 +707,7 @@ h4 small {
 .page-header {
   padding-bottom: 9px;
   margin: 20px 0 30px;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #cccccc;
 }
 
 ul,
@@ -776,7 +782,7 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #999999;
+  border-top: 1px solid #cccccc;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -793,7 +799,7 @@ abbr.initialism {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #cccccc;
 }
 
 blockquote p {
@@ -817,7 +823,7 @@ blockquote.pull-right {
   float: right;
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #cccccc;
   border-left: 0;
 }
 
@@ -852,7 +858,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 10px;
+  font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
@@ -870,7 +876,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -915,7 +921,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 40px;
   color: #333333;
   border: 0;
@@ -932,7 +938,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 20px;
 }
@@ -970,7 +976,7 @@ input[type="color"],
   height: 20px;
   padding: 4px 6px;
   margin-bottom: 9px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: #555555;
   -webkit-border-radius: 3px;
@@ -1314,7 +1320,7 @@ input[readonly],
 select[readonly],
 textarea[readonly] {
   cursor: not-allowed;
-  background-color: #eeeeee;
+  background-color: #cccccc;
 }
 
 input[type="radio"][disabled],
@@ -1550,7 +1556,7 @@ select:focus:required:invalid:focus {
   position: relative;
   margin-bottom: 0;
   *margin-left: 0;
-  font-size: 12px;
+  font-size: 14px;
   vertical-align: top;
   -webkit-border-radius: 0 3px 3px 0;
      -moz-border-radius: 0 3px 3px 0;
@@ -1573,12 +1579,12 @@ select:focus:required:invalid:focus {
   height: 20px;
   min-width: 16px;
   padding: 4px 5px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 20px;
   text-align: center;
   text-shadow: 0 1px 0 #ffffff;
-  background-color: #eeeeee;
+  background-color: #cccccc;
   border: 1px solid #ccc;
 }
 
@@ -3027,7 +3033,8 @@ button.close {
   padding: 4px 14px;
   margin-bottom: 0;
   *margin-left: .3em;
-  font-size: 12px;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
+  font-size: 18px;
   line-height: 20px;
   *line-height: 20px;
   color: #333333;
@@ -3123,7 +3130,8 @@ button.close {
 
 .btn-large {
   padding: 9px 14px;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 700;
   line-height: normal;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -3136,7 +3144,8 @@ button.close {
 
 .btn-small {
   padding: 3px 9px;
-  font-size: 10px;
+  font-size: 14px;
+  font-weight: 700;
   line-height: 18px;
 }
 
@@ -3146,7 +3155,7 @@ button.close {
 
 .btn-mini {
   padding: 2px 6px;
-  font-size: 9px;
+  font-size: 11px;
   line-height: 17px;
 }
 
@@ -3441,6 +3450,9 @@ input[type="submit"].btn.btn-mini {
 .btn-link,
 .btn-link:active,
 .btn-link[disabled] {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
   background-color: transparent;
   background-image: none;
   -webkit-box-shadow: none;
@@ -3517,7 +3529,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn-group > .btn,
 .btn-group > .dropdown-menu {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .btn-group > .btn-mini {
@@ -3794,7 +3806,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #cccccc;
 }
 
 .nav > .pull-right {
@@ -3905,7 +3917,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+  border-color: #cccccc #cccccc #dddddd;
 }
 
 .nav-tabs > .active > a,
@@ -4133,7 +4145,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .tabs-left > .nav-tabs > li > a:hover {
-  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+  border-color: #cccccc #dddddd #cccccc #cccccc;
 }
 
 .tabs-left > .nav-tabs .active > a,
@@ -4156,7 +4168,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .tabs-right > .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+  border-color: #cccccc #cccccc #cccccc #dddddd;
 }
 
 .tabs-right > .nav-tabs .active > a,
@@ -4229,8 +4241,8 @@ input[type="submit"].btn.btn-mini {
   float: left;
   padding: 5px 20px 5px;
   margin-left: -20px;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   font-size: 20px;
-  font-weight: 200;
   color: #ffffff;
   text-shadow: 0 1px 0 #808080;
 }
@@ -5307,7 +5319,7 @@ a.thumbnail:hover {
 
 .label,
 .badge {
-  font-size: 10.152px;
+  font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
   color: #ffffff;
@@ -5761,7 +5773,7 @@ a.badge:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #eeeeee;
+  background-color: #cccccc;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;

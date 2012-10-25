@@ -14,7 +14,7 @@ p {
   margin-bottom: @baseLineHeight;
   font-size: @baseFontSize * 2.0;//1.5;
   font-weight: 200;
-  line-height: @baseLineHeight * 1.5;
+  line-height: @baseLineHeight * 2.0;//1.5;
 }
 
 
@@ -68,12 +68,21 @@ h1, h2, h3, h4, h5, h6 {
     color: @grayLight;
   }
 }
-h1 { font-size: 36px; line-height: 40px; }
-h2 { font-size: 30px; line-height: 40px; }
-h3 { font-size: 24px; line-height: 40px; }
+//h1 { font-size: 36px; line-height: 40px; }
+//h2 { font-size: 30px; line-height: 40px; }
+//h3 { font-size: 24px; line-height: 40px; }
+//h4 { font-size: 18px; line-height: 20px; }
+//h5 { font-size: 14px; line-height: 20px; }
+//h6 { font-size: 12px; line-height: 20px; }
+
+h1 { font-size: 48px; line-height: 56px; }
+h2 { font-size: 36px; line-height: 40px; }
+h3 { font-size: 30px; line-height: 40px; }
 h4 { font-size: 18px; line-height: 20px; }
-h5 { font-size: 14px; line-height: 20px; }
-h6 { font-size: 12px; line-height: 20px; }
+h5 { font-size: 16px; line-height: 20px; }
+h6 { font-size: 14px; line-height: 20px; }
+h4,h5,h6{ font-weight:700;}
+
 
 h1 small { font-size: 24px; }
 h2 small { font-size: 18px; }
@@ -87,7 +96,7 @@ h4 small { font-size: 14px; }
 .page-header {
   padding-bottom: (@baseLineHeight / 2) - 1;
   margin: @baseLineHeight 0 (@baseLineHeight * 1.5);
-  border-bottom: 1px solid @grayLight;//@grayLighter;
+  border-bottom: 1px solid @grayLighter;
 }
 
 

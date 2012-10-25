@@ -8,11 +8,14 @@
 
 // Core
 .btn {
+  font-family: @headingsFontFamily;  
+
   display: inline-block;
   .ie7-inline-block();
   padding: 4px 14px;
   margin-bottom: 0; // For input.btn
-  font-size: @baseFontSize;
+  //font-size: @baseFontSize;
+  font-size: @baseFontSize+4;
   line-height: @baseLineHeight;
   *line-height: @baseLineHeight;
   text-align: center;
@@ -74,7 +77,9 @@
 // Large
 .btn-large {
   padding: 9px 14px;
-  font-size: @baseFontSize + 2px;
+  //font-size: @baseFontSize + 2px;
+  font-size: @baseFontSize + 6px;
+  font-weight: 700;
   line-height: normal;
   .border-radius(5px);
 }
@@ -85,7 +90,9 @@
 // Small
 .btn-small {
   padding: 3px 9px;
-  font-size: @baseFontSize - 2px;
+  //font-size: @baseFontSize - 2px;
+  font-size: @baseFontSize;
+  font-weight: 700;
   line-height: @baseLineHeight - 2px;
 }
 .btn-small [class^="icon-"] {
@@ -216,6 +223,9 @@ input[type="submit"].btn {
   background-color: transparent;
   background-image: none;
   .box-shadow(none);
+  font-family:@baseFontFamily;
+  font-size:@baseFontSize;
+  font-weight:normal;
 }
 .btn-link {
   border-color: transparent;

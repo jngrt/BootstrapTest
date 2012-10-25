@@ -9,11 +9,41 @@ body {
  * Sidebar styling
  */
 .sidebar {
-  padding:20px 0;
-  width:210px;
+  margin:20px 0;
+  font-family: "Open Sans Condensed",Arial,sans-serif;
+  font-size:16px;
 }
+ul.sidebar{
+  width:200px;
+  font-weight:700;
+  font-size:16px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.165);
+     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.165);
+          box-shadow: 0 1px 4px rgba(0,0,0,.165);
+}
+ul.sidebar > .active > a,
+ul.sidebar > .active > a:hover{
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fc7e00;
+}
+
+.sidebar-lvl-2, .sidebar-lvl-3, .sidebar-lvl-4{
+  font-weight:300;
+}
+.nav-tabs > li.sidebar-lvl-2 > a {
+  padding-left:30px;
+}
+.nav-tabs > li.sidebar-lvl-3 > a {
+  padding-left:45px;
+}
+  /*
 #nav-toplevel > li > a{
   font-weight:bold;
+  font-size:16px;
 }
 
 .nav-list > li > ul {
@@ -26,7 +56,7 @@ body {
 }
 .nav-list ul > li > ul > li > a{
     padding-left:45px;
-}
+}*/
 
 /*
  * Top navigation styling
@@ -50,21 +80,6 @@ body {
 }
 .landing-page.page-header{
   margin-bottom:20px;
-}
-
-.landing-content h4{
-  font-size:16px;
-  color:#f57e20;
-  font-weight:700;
-  line-height:
-}
-#start-block .btn{
-  height:80px;
-  display:block;
-  text-decoration:none;
-}
-#start-block a{
-  text-decoration:none;
 }
 .landing-content a.block:hover{
   color:#222;
@@ -91,5 +106,39 @@ body {
   text-decoration:none;
 }
 .landing-content .btn-link:hover{
-  color:#C76206;
+  color:#f57e20;
 }
+
+/*
+ * Landing page start block
+ */
+#start-block{
+  padding-bottom:14px;
+}
+#start-block .btn{
+  padding:0 5px;
+  font-size:16px;
+  height:80px;
+  display:block;
+  text-decoration:none;
+}
+#start-block .btn-primary{
+  background-repeat:no-repeat;
+  background-position:8px 8px;
+  padding-left:74px;
+}
+#start-block .start-btn-1{ 
+  background-image:url(img/big-icon-register.png); 
+}
+#start-block .start-btn-2{
+  background-image:url(img/big-icon-api.png); 
+}
+#start-block .start-btn-3{
+  background-image:url(img/big-icon-build.png); 
+}
+#start-block a{
+  text-decoration:none;
+}
+
+
+
