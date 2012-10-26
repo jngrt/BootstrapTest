@@ -45,6 +45,8 @@ ul.sidebar > .active > a:hover{
   background-image:url(img/favicon_orange2.png);
   background-repeat:no-repeat;
   background-position:0px 4px;
+  color:#ffffff;
+  text-decoration:none;
 }
 .navbar-inner .btn-toolbar {
   margin-top:3px;
