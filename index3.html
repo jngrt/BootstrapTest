@@ -9,11 +9,13 @@
 </head>
 <body>
 
+<div class="wrapper">
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
 
     <div class="container">
-      <a class="brand" href="#"><img src="img/favicon_orange2.png" /> CommonSense Developers</a>
+      <div class="logo"> CommonSense Developers</div>
+      <!-- <a class="brand" href="#"><img src="img/favicon_orange2.png" /> CommonSense Developers</a>-->
       <div class="btn-toolbar pull-right">
         <a class="btn btn-small" href="#"><i class="icon-search"></i></a>
         <div class="btn-group">
@@ -29,11 +31,10 @@
     </div>
   </div>
 </div>
-
 <div class="container"> 
   <div class="row">
     <div class="span3">
-      <ul class="sidebar nav nav-tabs nav-stacked" id="nav-toplevel"  data-spy="affix" data-offset-top="0" >
+      <ul class="sidebar nav nav-tabs nav-stacked" id="nav-toplevel"><!--  data-spy="affix" data-offset-top="0" data-offset-bottom="100">-->
           <li><a href="#">CommonSense</a></li>
           <li class="active sidebar-lvl-2"><a href="#">System overview</a></li>
           <li><a href="#">API Reference</a></li>
@@ -64,22 +65,34 @@
       <div class="row" id="start-block">
         <div class="span3">
           <a href="http://accounts.sense-os.nl/" target="_blank">
-            <button class="start-btn-1 btn btn-large btn-primary btn-block" type="button">
-                1. Get a CommonSense account
+            <button class="btn btn btn-large btn-primary btn-block" type="button">
+              <div class="start-btn-1">
+                <p>
+                1. Get a<br />CommonSense<br />account
+                </p>
+              </div>
             </button>
           </a>
         </div>
         <div class="span3">
           <a href="/UsingTheAPI/GettingStarted">
-            <button class="start-btn-2 btn btn-large btn-primary btn-block" type="button">
+            <button class="btn btn-large btn-primary btn-block" type="button">
+              <div class="start-btn-2"> 
+                <p>
                 2. Get to know<br />the API
+                </p>
+              </div>
             </button>
           </a>
         </div>
         <div class="span3">
           <a href="/Libraries">
-            <button class="start-btn-3 btn btn-large btn-primary btn-block" type="button">
+            <button class="btn btn-large btn-primary btn-block" type="button">
+              <div class="start-btn-3"> 
+                <p>
               3. Build<br />great apps
+              </p>
+            </div>
             </button>
           </a>
         </div>
@@ -146,14 +159,12 @@
       </div>
     </div><!--/span-->
   </div><!--/row-->
-
-  <hr>
-
-  <footer>
-    <p>&copy; Sense Observation Systems 2012</p>
-  </footer>
-
+  <div class="push"> </div>
+</div> 
 </div>
+<footer>
+    <p>&copy; Sense Observation Systems 2012</p>
+</footer>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>

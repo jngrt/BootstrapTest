@@ -52,12 +52,13 @@
   // Vertically center the text given @navbarHeight
   //padding: ((@navbarHeight - @baseLineHeight) / 2) 20px ((@navbarHeight - @baseLineHeight) / 2);
   padding: 5px 20px 5px;
-  margin-left: -20px; // negative indent to left-align the text down the page
+  margin-left: -15px; // negative indent to left-align the text down the page
   font-size: 20px;
+  line-heigth:20px;
   font-family: @headingsFontFamily;
-  //font-weight: 700;
+  font-weight: 300;
   color: @navbarBrandColor;
-  text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  text-shadow: 0 -1px 0 darken(@navbarBackground,25%);//@navbarBackgroundHighlight;
   &:hover {
     text-decoration: none;
   }

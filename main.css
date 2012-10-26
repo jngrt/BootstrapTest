@@ -1,69 +1,54 @@
 
-body {
-    padding-bottom: 40px;
-    padding-top: 60px;
-}
-
-
 /*
  * Sidebar styling
  */
 .sidebar {
   margin:20px 0;
   font-family: "Open Sans Condensed",Arial,sans-serif;
-  font-size:16px;
 }
 ul.sidebar{
   width:200px;
   font-weight:700;
-  font-size:16px;
+  font-size:14px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
-  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.165);
-     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.165);
-          box-shadow: 0 1px 4px rgba(0,0,0,.165);
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+          box-shadow: 0 1px 4px rgba(0,0,0,.2);
 }
 ul.sidebar > .active > a,
 ul.sidebar > .active > a:hover{
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #fc7e00;
+  /*color: #ffffff;*/
+  color:#f57e20;
+  /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);*/
+  background-color:#ddd;
 }
 
-.sidebar-lvl-2, .sidebar-lvl-3, .sidebar-lvl-4{
-  font-weight:300;
-}
 .nav-tabs > li.sidebar-lvl-2 > a {
   padding-left:30px;
 }
 .nav-tabs > li.sidebar-lvl-3 > a {
   padding-left:45px;
 }
-  /*
-#nav-toplevel > li > a{
-  font-weight:bold;
-  font-size:16px;
-}
-
-.nav-list > li > ul {
-    padding-left:0;
-    padding-right:0;
-}
-.nav-list ul > li > a {
-    padding-left:30px;
-    font-weight:normal;
-}
-.nav-list ul > li > ul > li > a{
-    padding-left:45px;
-}*/
 
 /*
- * Top navigation styling
+ * Topbar styling
  */
+
+.navbar .logo{
+  float:left;
+  padding-left:40px;
+ font-family: "Open Sans Condensed",Arial,sans-serif;
+ font-size:20px;
+  line-height:40px;
+  background-image:url(img/favicon_orange2.png);
+  background-repeat:no-repeat;
+  background-position:0px 4px;
+}
 .navbar-inner .btn-toolbar {
   margin-top:3px;
-  margin-bottom:4px;
+ margin-bottom:4px;
 }
 .navbar-inner .btn, .navbar-inner .button-group .btn{
   margin-top:0px;
@@ -75,8 +60,11 @@ ul.sidebar > .active > a:hover{
  */
 .landing-page.page-header h1{
   font-size:84px;
+  font-weight:300;
   line-height:84px;
   letter-spacing: -3px;
+  color:#666;
+ text-shadow: 0 -1px 0 #444; 
 }
 .landing-page.page-header{
   margin-bottom:20px;
@@ -94,7 +82,6 @@ ul.sidebar > .active > a:hover{
 }
 .landing-content i{
   float:right;
-  /*margin-top:-32px;*/
   margin-top:-12px;
   font-size:24px;
   font-style:normal;
@@ -116,16 +103,28 @@ ul.sidebar > .active > a:hover{
   padding-bottom:14px;
 }
 #start-block .btn{
-  padding:0 5px;
+  padding:0 0;
   font-size:16px;
+  width:220px;
   height:80px;
-  display:block;
+  /*display:block;*/
   text-decoration:none;
 }
-#start-block .btn-primary{
+#start-block .btn-primary > div{
+  height:68px;
+  width:136px;
+  padding: 5px;
+  padding-left:74px;
   background-repeat:no-repeat;
   background-position:8px 8px;
-  padding-left:74px;
+  display:inline-block;
+  vertical-align:middle;
+}
+#start-block .btn-primary > div > p{
+  display:table-cell;
+  width:136px;
+  height:68px;
+  vertical-align:middle;
 }
 #start-block .start-btn-1{ 
   background-image:url(img/big-icon-register.png); 
@@ -141,4 +140,32 @@ ul.sidebar > .active > a:hover{
 }
 
 
+/*
+ * Sticky footer
+ */
+html, body {
+	height: 100%;
+}
+.wrapper > .container{
+  padding-top:60px;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
+}
+.push{
+  height: 120px; /* .push must be the same height as .footer */
+}
+footer{
+  height:78px;
+  background-color:#eff0f1;
+  border-top: 1px solid #ddd;
+}
+footer p{
+  padding:10px;
+  color:#aaa;
+  
+}
 
